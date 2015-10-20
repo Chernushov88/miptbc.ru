@@ -86,17 +86,21 @@
 
 
 @media only screen and (max-width : 768px) {
-
-
 	.center_absolute{
 	position: absolute;
-    top: 48px;
-    left: calc(50% - 75px);
+    top: 59px;
+    left: calc(46% - 75px);
 	background-color: #EFEFEF;
     border-radius: 12px;
     padding: 5px;
 	}
+	.a_logo {
+    left: calc(50% - 75px);
+	}
+	.button_menu {
+    margin-top: 55px;}
 	.associations_header, .associations_header span{
+		display: none;
 		font-size:9px;
 		line-height:2.4;
 	}
@@ -139,6 +143,8 @@
 	}
 	.div_top_grey_text{
 		width:102%;
+		height: 54px !important;
+		margin: 0 -5px 0 0;
 	}
 	/*...........menu.............*/
 	header nav{
@@ -229,26 +235,16 @@
 
 
 @media only screen and (max-width : 480px) {
-	#top_header, #left_blue{
-		display:none;
-	}
-	.a_logo img{
-		margin:7px 0;
-		}
-	.button_menu{
-		margin: 16px;
-	}	
-	header{
-	height:75px;
-	min-height:0;
-	max-height:100%;
-	}
-	header nav{
-		top:75px;
-	}
-	
+.center_absolute {
+    left: calc(38% - 75px);}
 	
 }
+@media only screen and (max-width : 480px) {
+.center_absolute {
+    left: calc(25% - 75px);}
+	
+}
+
 
 @media only screen and (max-width : 320px) {
 
