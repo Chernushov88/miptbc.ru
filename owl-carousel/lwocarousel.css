@@ -1,0 +1,77 @@
+/* 
+ * 	Core lwo Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.lwo-carousel .lwo-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+#lwo-demo{
+	z-index: 50;
+	display: block;
+}
+/* display none until init */
+.lwo-carousel{
+	display: none;
+	position: relative;
+	width: 90%;
+	margin:auto;
+	-ms-touch-action: pan-y;
+}
+.lwo-carousel .lwo-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.lwo-carousel .lwo-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.lwo-carousel .lwo-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.lwo-carousel .lwo-item{
+	float: left;
+}
+.lwo-controls .lwo-page,
+.lwo-controls .lwo-buttons div{
+	cursor: pointer;
+}
+.lwo-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.lwo-carousel  .lwo-wrapper,
+.lwo-carousel  .lwo-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+

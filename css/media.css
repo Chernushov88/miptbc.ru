@@ -1,0 +1,263 @@
+@media only screen and (max-width : 1680px) {
+
+}
+
+@media only screen and (max-width : 1366px) {
+
+}
+
+
+
+@media only screen and (max-width : 1200px) {
+	#blue_content{
+		height:auto;
+	}
+	.last_p{
+		height:43px;
+		margin-top:275px;
+	}
+	.last_p label{
+		margin-top: 21px;
+	}
+}
+
+
+@media only screen and (max-width : 992px) {
+ .center{
+	 width:100%;
+	 padding:0 5px;
+ }
+ .owl-controls .owl-buttons{
+	 width:100%;
+ }
+ .center nav ul li{
+	 margin-left:2%;
+ }
+ .center nav ul li a{
+	 font-size:12px;
+	 line-height:5;
+ }
+ .center nav{
+	 min-width:535px;
+	 width:70%;
+ }
+ .join_button{
+	 display:inline-block;
+	 text-align:center;
+	 padding:17px 0;
+	 width:100%;
+ }
+ .last_p{
+		height:43px;
+		margin-top:275px;
+	}
+	.div_for_checkbox label, .last_p label{
+		font-size: 11px !important;
+		 line-height: 2 !important;
+
+	}
+	.join_button span{
+	font-size: 9.5px !important;
+	}
+	#top_header_center{
+	 width:100%;
+	 padding:0 5px;
+ }
+	.a_dropdown{
+	  font-size: 11px !important;
+	}
+	.bic_calendar .table{
+		float: none;
+		width: 100%;
+	}
+	.bic_calendar{
+		margin-top: 10px;
+	}
+	.bic_calendar .table{
+		margin-top: 0;
+	}
+	.bic_calendar .header{
+		margin: auto;
+	}
+	.calendar{
+		height: auto;
+	}
+}
+
+
+@media only screen and (max-width : 768px) {
+
+
+	.center_absolute{
+	position: absolute;
+    top: 48px;
+    left: calc(50% - 75px);
+	background-color: #EFEFEF;
+    border-radius: 12px;
+    padding: 5px;
+	}
+	.associations_header, .associations_header span{
+		font-size:9px;
+		line-height:2.4;
+	}
+	.associations_header{
+		float:none !important;
+		text-align:center !important;
+	}
+	.div_for_checkbox{
+	margin-top:15px;
+	}
+	.checkbox2{
+		bottom:-4px;
+	}
+	.modal-dialog{
+		width:97%;
+	}
+	.form_button{
+		min-width:190px;
+		font-size:13px;
+		width:46%;
+	}
+	 .last_p{
+	margin:0; 
+   }
+ .last_p{
+		height:43px;
+		margin-top:510px;
+	}
+ .last_p label{
+		margin-top: 0px;
+		
+	}
+	.div_for_checkbox label, .last_p label{
+		font-size: 15px !important;
+		 line-height: 2 !important;
+
+	}
+	header nav{
+		display:none;
+	}
+	.div_top_grey_text{
+		width:102%;
+	}
+	/*...........menu.............*/
+	header nav{
+	position: absolute;
+    top: 100px;
+    margin-top: 0 !important;
+    z-index: 1;
+    background-color: #0063A5;
+    width: 100% !important;
+	height: auto !important;
+	max-width:98% !important;
+	min-width:0 !important;
+	}
+	header nav ul li{
+	float: none;
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #FFF;
+	margin:0 0 0 0 !important;
+	}
+	header nav ul li:last-child{
+	height:88px;
+	}
+	header nav ul li:last-child a{
+	height:100%;
+	}
+	header nav ul li:last-child a:hover{
+	font-size:28px !important;
+	
+	}
+	header nav ul li a{
+	font-size: 28px !important;
+    padding: 0;
+    line-height: 2.25 !important;
+    padding-left: 15px;
+	text-align:center !important;
+	display: block !important;
+    width: 100% !important;
+	}
+	header nav ul li:last-child a span{
+	font-size:13.5px !important;
+	}
+	header nav ul li a:hover{
+	font-size: 30px !important;
+    padding: 0;
+    line-height: 2 !important;
+    padding-left: 15px;
+	text-align:center !important;
+	display: block !important;
+    width: 100% !important;
+	}
+	.active_nav1{
+		background-color:#F59D0F;
+		color:#0063A5;
+		border-bottom:0;
+	}
+	.active_nav1:hover{
+		color:#0063A5 !important;
+	}
+	.nav_join{
+		width:100% !important;
+	}
+	.join_button span{
+		display:block;
+	}
+	
+	/*CONTACTS*/
+	
+	.div_contacts{
+		max-width: 100%;
+		min-width: 0;
+		width: 96%;
+		margin: 10px auto;
+		float: none;
+	}
+	
+	.div_adress{
+		display: block;
+		float: none;
+		width: 96%;
+		margin: auto;
+	}
+	.ul_none{
+		display:none !important;
+	}
+}
+
+
+@media only screen and (max-width : 480px) {
+	#top_header, #left_blue{
+		display:none;
+	}
+	.a_logo img{
+		margin:7px 0;
+		}
+	.button_menu{
+		margin: 16px;
+	}	
+	header{
+	height:75px;
+	min-height:0;
+	max-height:100%;
+	}
+	header nav{
+		top:75px;
+	}
+	
+	
+}
+
+@media only screen and (max-width : 320px) {
+
+}
+
+/*....................................................*/
+
+@media only screen and (min-width : 768px){
+	header nav{
+		display:block !important;
+	}
+}
